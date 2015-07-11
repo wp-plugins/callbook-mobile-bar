@@ -16,7 +16,8 @@ Call&Book Mobile Bar is a plug-in that will help to improve conversion rates for
 
 The main buttons normally used for contact, buy a service/product  all in one: an easy and user friendly bar with call to action: call, send email, book.
 
-In this way the mobile user can:
+= In this way the mobile user can: =
+
 * Have quick access to all information needed (contacts, maps, etc.);
 * Contact  booking centre or have access to the booking engine;
 * Book an accommodation in few clicks. 
