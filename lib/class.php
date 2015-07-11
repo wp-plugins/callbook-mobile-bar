@@ -76,7 +76,7 @@ class CallBook_Settings {
   wp_register_style('jquery-ui', 'http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css');
   wp_enqueue_style( 'jquery-ui' );  
   
-  wp_enqueue_style('cb_callbook-admin', WP_PLUGIN_URL . '/callbook/assets/css/cb-admin.css');
+  wp_enqueue_style('cb_callbook-admin', WP_PLUGIN_URL . '/callbook-mobile-bar/assets/css/cb-admin.css');
  
 	}
 

@@ -114,7 +114,7 @@ load_plugin_textdomain( 'call_book', FALSE, basename( dirname( __FILE__ ) ) . '/
  * REGISTER STYLE
  */
 function callbook_scripts() {
-	wp_register_style('cb_callbook-style', WP_PLUGIN_URL . '/callbook/assets/css/style.css');
+	wp_register_style('cb_callbook-style', WP_PLUGIN_URL . '/callbook-mobile-bar/assets/css/style.css');
 	wp_register_style('headers_font', 'http://fonts.googleapis.com/css?family='. urlencode(get_option('cb_callbook_font_name')).'', false, null);
 	wp_enqueue_style('cb_callbook-style');
 	wp_enqueue_style('headers_font');
@@ -130,7 +130,7 @@ add_action( 'wp_enqueue_scripts', 'callbook_scripts' );
 	add_action('wp_head', 'print_my_script');
 		
 	function register_my_script() {
-		wp_register_script('ana-track', WP_PLUGIN_URL . '/callbook/assets/js/ana-track.js', array('jquery'), '1.0', true);
+		wp_register_script('ana-track', WP_PLUGIN_URL . '/callbook-mobile-bar/assets/js/ana-track.js', array('jquery'), '1.0', true);
 	}
 
 	function print_my_script() {
