@@ -6,7 +6,7 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 Plugin Name: Call&Book Mobile Bar
 Plugin URI: http://www.massimosalerno.it
 Description: Add a bottom bar for Mobile
-Version: 1.1
+Version: 1.1.1
 Author: Massimo Salerno
 Author URI: http://www.massimosalerno.it
  */
