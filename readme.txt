@@ -3,7 +3,7 @@ Contributors: msalerno82
 Tags: hotel, booking engine, hotel booking, bottom bar, call, booking, mail
 Requires at least: 4.1
 Tested up to: 4.2
-Stable tag: 1.1
+Stable tag: 1.1.1
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -48,6 +48,9 @@ It can be integrated with Events Tracking of Google Analytics.
 3. screenshot-3.png
 
 == Changelog ==
+
+= 1.1.1=
+Minor fixes to mobile css
 
 = 1.1 =
 Added Google Analytics Event Tracking 

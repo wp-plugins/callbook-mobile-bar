@@ -41,7 +41,7 @@ function cb_callbook_add_bar()
   	  echo '<div class="callbook_under"></div>';
     echo '</div>';
   
-  	echo'<div class="cb_powered"><a target="_blank" href="http://www.massimosalerno.it">Powered by Massimo Salerno</a></div>';
+  	echo'<div class="cb_powered"><a target="_blank" title="Massimo Salerno" alt="Webdesigner, webdeveloper e esperto wordpress" href="http://www.massimosalerno.it">Powered by Massimo Salerno</a></div>';
   }
   else {
 
