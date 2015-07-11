@@ -49,7 +49,7 @@ It can be integrated with Events Tracking of Google Analytics.
 
 == Changelog ==
 
-= 1.1.1=
+= 1.1.1 =
 Minor fixes to mobile css
 
 = 1.1 =
