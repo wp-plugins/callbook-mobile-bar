@@ -5,7 +5,7 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 /*
 Plugin Name: Call&Book Mobile Bar
 Plugin URI: http://www.massimosalerno.it
-Description: Add a bottom bar for Mobile
+Description: Call&Book Mobile Bar is a plug-in that will help to improve conversion rates for responsive web sites. The main buttons normally used for contact, buy a service/product all in one: an easy and user friendly bar with call to action: call, send email, book.
 Version: 1.1.1
 Author: Massimo Salerno
 Author URI: http://www.massimosalerno.it
