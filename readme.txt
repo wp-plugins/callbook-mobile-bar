@@ -17,9 +17,9 @@ Call&Book Mobile Bar is a plug-in that will help to improve conversion rates for
 The main buttons normally used for contact, buy a service/product  all in one: an easy and user friendly bar with call to action: call, send email, book.
 
 In this way the mobile user can:
-1.	have quick access to all information needed (contacts, maps, etc.);
-2.	contact  booking centre or have access to the booking engine;
-3.	book an accommodation in few clicks. 
+* Have quick access to all information needed (contacts, maps, etc.);
+* Contact  booking centre or have access to the booking engine;
+* Book an accommodation in few clicks. 
 
 Call&Book Mobile Bar has been mainly conceived for hotels, B&B, and any accommodation property:
 Mobile users need to quickly get in touch with the hotel or book an accommodation.  
@@ -35,15 +35,16 @@ It can be integrated with Events Tracking of Google Analytics.
 
 == Installation ==
 
-	1.	Upload Call&Book Mobile Bar folder to the /wp-content/plugins/ directory
-	2.	Activate the plugin through the 'Plugins' menu in WordPress
-	3.	Configure the plugin throught Settings -> Call&Book Mobile Bar
+1.	Upload Call&Book Mobile Bar folder to the /wp-content/plugins/ directory
+2.	Activate the plugin through the 'Plugins' menu in WordPress
+3.	Configure the plugin throught Settings -> Call&Book Mobile Bar
 
 
 == Screenshots ==
 
 1. screenshot-1.png
 2. screenshot-2.png
+3. screenshot-3.png
 
 == Changelog ==
 
@@ -52,6 +53,6 @@ Added Google Analytics Event Tracking
 Added Google Font Library
 
 = 1.0 =
-Call&Book Mobile Bar is now hosted on WordPress.org! Update in order to get proper, stable updates.
+Call&Book Mobile Bar! Update in order to get proper, stable updates.
 
 
