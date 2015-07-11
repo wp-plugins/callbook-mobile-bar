@@ -63,12 +63,13 @@
 	box-shadow:0 2px 15px 0 rgba(51, 51, 51, 1);
 }
 
-@media only screen(max-width: 740px) {
+@media screen(max-width: 740px) {
 	.mobile-call, .cb_powered a {
-	display:block!important;
+	display:block !important;
+}
 }
 
-}.mobile-call, .cb_powered a  {
+.mobile-call, .cb_powered a  {
 	display:none;
 }
 
