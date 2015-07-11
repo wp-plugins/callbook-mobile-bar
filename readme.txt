@@ -1,5 +1,5 @@
 === Call&Book Mobile Bar ===
-Contributors: Studio Salerno, Arturo Salerno
+Contributors: Massimo Salerno
 Tags: hotel, booking engine, hotel booking, bottom bar, call, booking, mail
 Requires at least: 4.1
 Tested up to: 4.2
