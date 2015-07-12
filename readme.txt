@@ -7,7 +7,7 @@ Stable tag: 1.1.1
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-Call&Book Mobile Bar is a smart and easy buttom bar for responsive websites with call to action: Call, send email, book.
+Call&Book Mobile Bar is a smart and easy bottom bar for responsive websites with call to action: call, send email, book.
 
 == Description ==
 
