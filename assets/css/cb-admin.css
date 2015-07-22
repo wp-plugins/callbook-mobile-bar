@@ -1,0 +1,19 @@
+input#callbook_call_title, input#callbook_call_number, input#callbook_book_title, input#callbook_book_link, input#callbook_mail_text {
+	min-width:350px;
+}
+input.callbook_font_size, input.callbook_icon_size {
+	width:50px;
+	vertical-align:middle;
+}
+
+.ui-widget-header {
+	background:#1e73be!important;
+}
+
+#cb-slider-text, #cb-slider-icon {
+	margin-left:15px;
+	margin-right:15px;
+	width:200px;
+	display:inline-block;
+	vertical-align:middle;
+}

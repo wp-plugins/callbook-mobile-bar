@@ -1,0 +1,176 @@
+@font-face {
+	font-family:'callbook';
+	src:url(fonts/callbook.eot?-sve12p);
+	src:url(fonts/callbook.eot?#iefix-sve12p) format("embedded-opentype"), url(fonts/callbook.ttf?-sve12p) format("truetype"), url(fonts/callbook.woff?-sve12p) format("woff"), url(fonts/callbook.svg?-sve12p#callbook) format("svg");
+	font-weight:400;
+	font-style:normal;
+}
+
+[class^="callbook-icona-"], [class*=" callbook-icona-"] {
+	font-family:'callbook';
+	speak:none;
+	font-style:normal;
+	font-weight:400;
+	font-variant:normal;
+	text-transform:none;
+	line-height:1;
+	-webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing:grayscale;
+}
+
+.callbook-icona-calendario:before {
+	content:"\e600";
+}
+
+.callbook-icona-busta-lettera:before {
+	content:"\e601";
+}
+
+.callbook-icona-telefono:before {
+	content:"\e942";
+}
+
+.callbook-icona-gallery:before {
+	content:"\e90d";
+}
+
+.callbook-icona-offerte:before {
+	content:"\e936";
+}
+
+.callbook-icona-acquista:before {
+	content:"\e93a";
+}
+
+.callbook-icona-mappa-localita:before {
+	content:"\e947";
+}
+
+.callbook-icona-info:before {
+	content:"\ea0c";
+}
+
+#callbook {
+	background:none repeat scroll 0 0 #fff;
+	bottom:0;
+	height:48px;
+	left:0;
+	position:fixed;
+	display:none;
+	right:0;
+	z-index:100;
+	-webkit-box-shadow:0 2px 15px 0 rgba(51, 51, 51, 1);
+	-moz-box-shadow:0 2px 15px 0 rgba(51, 51, 51, 1);
+	box-shadow:0 2px 15px 0 rgba(51, 51, 51, 1);
+}
+
+
+#callbook > a {
+	z-index:300;
+	float:left;
+	height:48px;
+	line-height:50px;
+	text-align:center;
+	width:50%;
+	text-decoration:none;
+	font-size:1.2em;
+	text-transform:capitalize;
+}
+
+.actioncall {
+	box-sizing:border-box;
+	padding-right:20px;
+}
+
+.actionbook {
+	box-sizing:border-box;
+	padding-left:20px;
+}
+
+.callbook_logo {
+	background-size:100%;
+	bottom:-24px;
+	height:72px!important;
+	left:50%;
+	margin-left:-23px;
+	position:absolute;
+	width:72px!important;
+	z-index:2;
+}
+
+#callbook > a > span.callbook-align {
+	text-transform:uppercase;
+}
+
+.callbook_under {
+	background:#fff;
+	bottom:-15px;
+	height:78px;
+	left:50%;
+	margin-left:-39px;
+	position:absolute;
+	width:78px;
+	border-radius:5000px;
+	-webkit-border-radius:5000px;
+	z-index:1;
+	-webkit-box-shadow:0 2px 15px 0 rgba(51, 51, 51, 1);
+	-moz-box-shadow:0 2px 15px 0 rgba(51, 51, 51, 1);
+	box-shadow:0 2px 15px 0 rgba(51, 51, 51, 1);
+}
+
+.callbook-icona-telefono, .callbook-icona-gallery, .callbook-icona-offerte, .callbook-icona-acquista, .callbook-icona-mappa-localit, .callbook-icona-info, .callbook-icona-calendario {
+	font-size:25px;
+}
+
+.callbook-icona-busta-lettera {
+	font-size:46px!important;
+	vertical-align:middle;
+	padding-right:5px;
+}
+
+
+.cb_powered a  {
+	 display: none;
+}
+
+
+/* MEDIA QUERIES MOBILE */
+
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 736px) {
+	
+	#callbook {
+	display:inline !important;
+	}
+
+	.cb_powered a{
+	bottom: 0px;
+	position: fixed;
+	z-index: 300;
+	font-size: 10px;
+	display:inline !important;
+	 background-color: white;
+	 width: 100%;
+	 text-align: center;
+	 height: 20px;
+	 padding-top: 5px;
+	color:black;
+	}
+	
+	.cb_powered a:hover {
+	color:#ec7a5c !important;
+	text-decoration:none;
+	}
+	
+	.actioncall {
+	box-sizing:border-box;
+	padding-right:35px;
+	}
+
+	.actionbook {
+	box-sizing:border-box;
+	padding-left:38px;
+	}
+} 

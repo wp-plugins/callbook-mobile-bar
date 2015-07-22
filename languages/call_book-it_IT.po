@@ -1,0 +1,189 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: call_book\n"
+"POT-Creation-Date: 2015-07-22 11:03+0100\n"
+"PO-Revision-Date: 2015-07-22 11:03+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.1\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: languages\n"
+"X-Poedit-SearchPath-1: .\n"
+
+#: lib/class.php:47 lib/class.php:424
+msgid "Call & Book Mobile Bar"
+msgstr "Call & Book Mobile Bar"
+
+#: lib/class.php:94
+msgid "Settings"
+msgstr "Settaggi"
+
+#: lib/class.php:106
+msgid "Options "
+msgstr "Opzioni"
+
+#: lib/class.php:111
+msgid "Enter the text of the call button"
+msgstr "Inserire il testo del pulsante chiamata"
+
+#: lib/class.php:112
+msgid "Ex: Call, Call now"
+msgstr "Chiama, chiama ora"
+
+#: lib/class.php:114
+msgid "Call now"
+msgstr "Chiama"
+
+#: lib/class.php:118
+msgid "Enter telephone number"
+msgstr "Inserire il numero di telefono"
+
+#: lib/class.php:119
+msgid "Enter the country number code before the telephone number. Ex. +39 (IT)"
+msgstr "Inserire il prefisso internazionale prima del numero. Es +39 (IT)"
+
+#: lib/class.php:125
+msgid "Enter the text for the 2nd button"
+msgstr "Inserire il testo del secondo pulsante"
+
+#: lib/class.php:126
+msgid "Ex: Book now, availability or buy, info, etc"
+msgstr "Es: Prenota, prenota ora oppure acquista, info, etc"
+
+#: lib/class.php:128
+msgid "Book now"
+msgstr "Prenota"
+
+#: lib/class.php:133
+msgid "Enter the URL for the 2nd button"
+msgstr "Inserire l’URL del secondo pulsante"
+
+#: lib/class.php:134
+msgid "Enter the full URL http:// or https://"
+msgstr "Inserire URL complete di http:// o https://"
+
+#: lib/class.php:141
+msgid "Choose 2nd button icon"
+msgstr "Scegli l’icona del secondo pulsante"
+
+#: lib/class.php:142
+msgid "default is \"calendar\""
+msgstr "L’icona calendario è di default"
+
+#: lib/class.php:144
+msgid "Calendar"
+msgstr "Calendario"
+
+#: lib/class.php:145
+msgid "Gallery"
+msgstr "Galleria"
+
+#: lib/class.php:146
+msgid "Offers"
+msgstr "Offerte"
+
+#: lib/class.php:147
+msgid "Buy"
+msgstr "Acquista"
+
+#: lib/class.php:148
+msgid "Map Pin"
+msgstr "Segnaposto"
+
+#: lib/class.php:149
+msgid "Info"
+msgstr "Informazione"
+
+#: lib/class.php:155
+msgid "Choose bar colour"
+msgstr "Scegliere il colore di sfondo della barra"
+
+#: lib/class.php:162
+msgid "Choose email button colour"
+msgstr "Scegliere il colore di sfondo del pulsante email"
+
+#: lib/class.php:169
+msgid "Enter email address"
+msgstr "Inserire l’indirizzo email"
+
+#: lib/class.php:177
+msgid "Choose mail icon colour"
+msgstr "Scegliere il colore dell’icona del pulsante email"
+
+#: lib/class.php:184
+msgid "Choose mail icon colour hover"
+msgstr "Scegliere il colore “hover” dell’icona del pulsante email"
+
+#: lib/class.php:191
+msgid "Choose text and icons colour "
+msgstr "Scegliere il colore del testo e delle icone"
+
+#: lib/class.php:198
+msgid "Choose text and icons hover colour"
+msgstr "Scegliere il colore “cover” del testo e delle icone"
+
+#: lib/class.php:205
+msgid "Choose text font size"
+msgstr "Scegli la dimensione del testo"
+
+#: lib/class.php:206 lib/class.php:214
+msgid "Min:15px, Max:30px"
+msgstr "Min:15px, Max:30px"
+
+#: lib/class.php:213
+msgid "Choose icons size"
+msgstr "Scegli la dimensione delle icone"
+
+#: lib/class.php:220
+msgid "Choose the font for buttons"
+msgstr "Scegli il font per i pulsanti"
+
+#: lib/class.php:221
+msgid "Google Font Library"
+msgstr ""
+
+#: lib/class.php:229
+msgid "Callbook Love"
+msgstr "Callbook Love"
+
+#: lib/class.php:230
+msgid ""
+"Tell the world your site is running Callbook (places a \"powered by\" "
+"message at the bottom of bar)"
+msgstr ""
+"Fai sapere a tutti che stai usando Callbook (inserisce un link “powered by” "
+"sotto la barra) "
+
+#: lib/class.php:236
+msgid "Preview"
+msgstr "Anteprima"
+
+#: lib/class.php:446
+msgid "Save"
+msgstr "Salva"
+
+#~ msgid ""
+#~ "Tell the world your site is running Callbook (places a powered message at "
+#~ "the top of bar)"
+#~ msgstr ""
+#~ "Fai sapere a tutti che stai usando Callbook (inserisce un link “powered "
+#~ "by” sotto la barra) "
+
+#~ msgid "Enter the text for the “booking” button"
+#~ msgstr "Inserire il testo del pulsante prenotazione"
+
+#~ msgid "Ex: Book now, availability, search"
+#~ msgstr "Es. Prenota, disponibilità, verifica"
+
+#~ msgid "Enter the URL for the “booking” button"
+#~ msgstr "Inserire URL del bottone per la prenotazione"
+
+#~ msgid "Choose text icons size"
+#~ msgstr "Scegli la dimensione delle icone"
