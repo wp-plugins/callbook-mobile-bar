@@ -77,8 +77,13 @@ class CallBook_Settings {
   wp_enqueue_style( 'jquery-ui' );  
   
   wp_enqueue_style('cb_callbook-admin', WP_PLUGIN_URL . '/callbook-mobile-bar/assets/css/cb-admin.css');
- 
+
 	}
+	
+	
+	
+	
+	
 
 	/**
 	 * Add settings link to plugin list table
@@ -225,6 +230,13 @@ class CallBook_Settings {
 					'description'	=> __( 'Tell the world your site is running Callbook (places a "powered by" message at the bottom of bar)', 'call_book' ),
 					'type'			=> 'checkbox',
 					'default'		=> ''
+				),
+					array(
+					'id' 			=> 'preview',
+					'label'			=> __( 'Preview', 'call_book' ),
+					'description'	=> __( '', 'call_book' ),
+					'type'			=> 'preview',
+					'default'		=> ''
 				)
 			
 				
@@ -357,6 +369,25 @@ public function settings_section( $section ) {
 				}
 				$html .= '</select> ';
 			break;
+			
+			case 'preview':
+			 $html .= '<div id="callbook" class="mobile-call">';
+  			$html .= '<a id="cb_call" class="actioncall">';
+ 					$html .= '<span style="padding:0 5px 0 0;" class="callbook-icona-telefono"></span>';
+  					$html .= '<span class="callbook-align">'.get_option('cb_callbook_call_title').'</span>';
+ 			$html .= '</a>';
+ 			$html .= '<a id="cb_book" class="actionbook">';
+					$html .= '<span class="callbook-align">'.get_option('cb_callbook_book_title').'</span>';
+  					$html .= '<span style="padding:0 0 0 5px;" class="'.get_option('cb_callbook_icon').'"></span>';
+  			$html .= '</a>';
+	  $html .= '<div class="callbook_logo">';
+  			$html .= '<a id="cb_mail" class="icon"">';
+  				$html .= '<span class="callbook-icona-busta-lettera"></span>';
+  			$html .= '</a>';
+ 	  $html .= '</div>';
+  	  $html .= '<div class="callbook_under"></div>';
+  $html .= '</div>';
+			break;
 		}
 		
 		switch( $field['type'] ) {
@@ -421,6 +452,45 @@ public function settings_section( $section ) {
 	}
 
 }
+
+
+add_action('admin_print_styles', 'dynamic_css_preview');
+	
+	function dynamic_css_preview()
+	{
+
+	  $text_hover = get_option('cb_callbook_color_text_hover');
+	  $mail_icon_hover = get_option('cb_callbook_mail_icon_hover');
+	  $color_bg = get_option('cb_callbook_color_bg');
+	  $color_text = get_option('cb_callbook_color_text');
+	  $icon_size = get_option('cb_callbook_icon_size');
+	  $font_size = get_option('cb_callbook_font_size');
+	  $mail_icon_color = get_option('cb_callbook_mail_icon_color');
+	  $color_mail_bg = get_option('cb_callbook_color_mail_bg');
+	 $font_name = get_option('cb_callbook_font_name');
+	?>
+	
+	   
+
+		<style type="text/css"> #callbook > a:hover,a:hover.icon {color: <?php
+		echo $text_hover?> !important; text-decoration:none; }
+		span.callbook-icona-busta-lettera:hover { color:<?php echo
+		$mail_icon_hover ?> !important; } #callbook{ background:<?php echo
+		$color_bg ?> !important;  } a.actioncall, a.actionbook, a.icon{ color:<?php echo $color_text ?>; }
+		span.callbook-icona-telefono, span.callbook-icona-calendario,span.callbook-icona-offerte,
+		span.callbook-icona-acquista,span.callbook-icona-mappa-localita,span.callbook-icona-gallery,span.callbook-icona-info{
+		font-size:<?php echo $icon_size ?>; }span.callbook-align{ font-size:<?php echo $font_size ?>; }
+		span.callbook-icona-busta-lettera { color:<?php echo $mail_icon_color
+		?>; }.callbook_under{ background:<?php echo $color_mail_bg ?>
+		!important; } .cb_powered a:hover{color:<?php
+		echo $text_hover?>;} #callbook > a > span.callbook-align, .cb_powered a {font-family:<?php echo $font_name
+		?>}</style>
+	<?php
+	
+		wp_register_style('headers_font_admin', 'http://fonts.googleapis.com/css?family='. urlencode(get_option('cb_callbook_font_name')).'', false, null);
+		wp_enqueue_style('headers_font_admin');
+
+	}
 
 
 			    

@@ -3,11 +3,11 @@ Contributors: msalerno82
 Tags: hotel, booking engine, hotel booking, bottom bar, call, booking, mail
 Requires at least: 4.1
 Tested up to: 4.2
-Stable tag: 1.1.1
+Stable tag: 1.2
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-Call&Book Mobile Bar is a smart and easy bottom bar for responsive websites with call to action: call, send email, book.
+Call&Book Mobile Bar is a smart and easy buttom bar for responsive websites with call to action: Call, send email, book.
 
 == Description ==
 
@@ -49,14 +49,17 @@ It can be integrated with Events Tracking of Google Analytics.
 
 == Changelog ==
 
+= 1.2 =
+* Added a bar preview in plugin settings
+
 = 1.1.1 =
-Minor fixes to mobile css
+* Minor fixes to mobile css
 
 = 1.1 =
-Added Google Analytics Event Tracking 
-Added Google Font Library
+* Added Google Analytics Event Tracking 
+* Added Google Font Library
 
 = 1.0 =
-Call&Book Mobile Bar! Update in order to get proper, stable updates.
+* Call&Book Mobile Bar! Update in order to get proper, stable updates.
 
 

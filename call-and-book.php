@@ -6,7 +6,7 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 Plugin Name: Call&Book Mobile Bar
 Plugin URI: http://www.massimosalerno.it
 Description: Call&Book Mobile Bar is a plug-in that will help to improve conversion rates for responsive web sites. The main buttons normally used for contact, buy a service/product all in one: an easy and user friendly bar with call to action: call, send email, book.
-Version: 1.1.1
+Version: 1.2
 Author: Massimo Salerno
 Author URI: http://www.massimosalerno.it
  */
@@ -96,12 +96,12 @@ load_plugin_textdomain( 'call_book', FALSE, basename( dirname( __FILE__ ) ) . '/
 		echo $text_hover?> !important; text-decoration:none; }
 		span.callbook-icona-busta-lettera:hover { color:<?php echo
 		$mail_icon_hover ?> !important; } #callbook{ background:<?php echo
-		$color_bg ?> !important; } a.actioncall, a.actionbook, a.icon{ color:<?php echo $color_text ?>; }
+		$color_bg ?>; } a.actioncall, a.actionbook, a.icon{ color:<?php echo $color_text ?>; }
 		span.callbook-icona-telefono, span.callbook-icona-calendario,span.callbook-icona-offerte,
 		span.callbook-icona-acquista,span.callbook-icona-mappa-localita,span.callbook-icona-gallery,span.callbook-icona-info{
 		font-size:<?php echo $icon_size ?>; }span.callbook-align{ font-size:<?php echo $font_size ?>; }
 		span.callbook-icona-busta-lettera { color:<?php echo $mail_icon_color
-		?>; }.callbook_under{ background:<?php echo $color_mail_bg ?>
+		?>; }.callbook_under{ background:<?php echo $color_mail_bg ?>;
 		!important; } .cb_powered a:hover{color:<?php
 		echo $text_hover?>;} #callbook > a > span.callbook-align, .cb_powered a {font-family:<?php echo $font_name
 		?>}</style>
